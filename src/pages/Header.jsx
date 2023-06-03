@@ -5,7 +5,7 @@ import logo from "../elements/logos/casanoilog.png"
 
 function Header() {
   return (
-    <Navbar expand="lg" className='d-flex justify-content-end fixed-top shadow-lg rounded-bottom' style={{background: 'rgba(255, 255, 255, 0.90'}}>
+    <Navbar expand="lg" className='d-flex justify-content-end fixed-top shadow-lg rounded-bottom' style={{background: 'rgba(181, 165, 134, 0.80)'}}>
       <Container>
         <img src={logo} alt="logo" width={250} />
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>

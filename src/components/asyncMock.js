@@ -71,14 +71,10 @@ const products = [
         "size": "80 x 40 cm.",
         "made":"Lienzo 100 % Algodon."
     },
-    {
-        "id": "10",
-        "category": "Almohadones",
-        "name": "CARTA",
-        "image": "/imagenes/carta.webp",
-        "size": "80 x 50 cm.",
-        "made":"Lienzo 100 % Algodon."
-    },
+
+
+
+    
     {
         "id": "11",
         "category": "Almohadones",

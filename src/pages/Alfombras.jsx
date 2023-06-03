@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getProductsAlfombras } from "../components/asyncMock";
 import ItemDetail from "../components/itemDetail";
-import image from "../elements/inicioimagenbn.webp";
+import image from "../elements/inicioimagenbnm.webp";
 
 const Alfombras  = () => {
     const [products, setProducts] = useState ([])
@@ -14,7 +14,7 @@ const Alfombras  = () => {
     },[])
 
     return(
-        <div className="mx-auto mt-3" style={{width: '90%',backgroundImage: `url(${image})`,
+        <div className="mx-auto mt-3" style={{width: '100%',backgroundImage: `url(${image})`,
         backgroundSize: "cover", backgroundAttachment: "fixed" }} >
             <br></br>
             
