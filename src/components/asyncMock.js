@@ -580,3 +580,61 @@ export const getProductsOtros =() =>{
         }, 0)
     })
 }
+
+const productsxl = [
+    {
+        "id": "1",
+        "category": "Almohadones Xl",
+        "name": "BILBAO",
+        "image": "/imagenes/bilbao.webp",
+        "size": "120 x 100 cm.",
+        "made":"Lienzo 100% algodon."
+    },
+    {
+        "id": "2",
+        "category": "Almohadones Xl",
+        "name": "ONE LOVE",
+        "image": "/imagenes/onelove.webp",
+        "size": "140 x 40 cms.",
+        "made":"100% algodon."
+    },
+    {
+        "id": "3",
+        "category": "Almohadones Xl",
+        "name": "NUNCA SEREMOS",
+        "image": "/imagenes/nuncaseremos.webp",
+        "size": "120 x 50 cms.",
+        "made":"100% algodon."
+    },
+    {
+        "id": "4",
+        "category": "Almohadones Xl",
+        "name": "REMEMBER THAT DAY",
+        "image": "/imagenes/remember.webp",
+        "size": "120 x 50 cms.",
+        "made":"100% algodon."
+    },
+    {
+        "id": "5",
+        "category": "Almohadones Xl",
+        "name": "SANCTUARY",
+        "image": "/imagenes/sanctuary.webp",
+        "size": "120 x 50 cms.",
+        "made":"Lienzo 100% algodon."
+    },
+    {
+        "id": "6",
+        "category": "Almohadones Xl",
+        "name": "XL",
+        "image": "/imagenes/xl.webp",
+        "size": "90 x 60 cms.",
+        "made":"Lienzo 100% algodon."
+    },
+]
+export const getProductsxl =() =>{
+    return new Promise((resolve)=>{
+        setTimeout(()=>{
+            resolve(productsxl)
+        }, 0)
+    })
+}

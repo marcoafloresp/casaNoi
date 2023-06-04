@@ -13,6 +13,7 @@ function Header() {
           <Nav className="ms-auto">
             <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="/Almohadones">Almohadones</Nav.Link>
+            <Nav.Link href='/Almohadonesxl'>Almohadones XL</Nav.Link>
             <Nav.Link href="/Alfombras">Alfombras</Nav.Link>
             <Nav.Link href="/Bags">Bags</Nav.Link>
             <Nav.Link href="/Otros">Otros</Nav.Link>
