@@ -1,9 +1,8 @@
-import image from "../elements/inicioimagen.webp";
+import image from "../elements/logos/casanoilogo.png";
 
 const Inicio  = () => {
     return(
-        <div className="mt-5" style={{ backgroundImage: `url(${image})`,
-        backgroundSize: "cover", height: "100vh"}}>
+        <div style={{backgroundSize: "90%" ,backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundImage: `url(${image})`, width: '100%', height: '100vh'}}>
         </div>
     )
 }
