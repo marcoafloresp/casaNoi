@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getProducts } from "../components/asyncMock";
 import ItemDetail from "../components/itemDetail";
-import image from "../elements/inicioimagenbnm.webp";
+
 
 const Almohadones  = () => {
     const [products, setProducts] = useState ([])
@@ -14,8 +14,7 @@ const Almohadones  = () => {
     },[])
 
     return(
-        <div className="mx-auto mt-3" style={{width: '100%',backgroundImage: `url(${image})`,
-        backgroundSize: "cover", backgroundAttachment: "fixed" }} >
+        <div className="mx-auto mt-3">
             <br></br>
             
             {products.map(product => (

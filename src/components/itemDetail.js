@@ -8,7 +8,7 @@ function ItemDetail(props){
                     <h5 className="nordica fs-3 text-dark">{props.name}</h5>
 
                     <div className="flex justify-between items-center mb-1">
-                        <div className="nordica text-dark">Medida: {props.size} </div>
+                        <div className="nordica text-dark">{props.size} </div>
                         <div className="nordica text-dark">{props.made} </div>
                     </div>
                 </div>

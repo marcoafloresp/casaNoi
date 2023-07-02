@@ -172,14 +172,6 @@ const products = [
         "made":"Lienzo 100 % Algodon."
     },
     {
-        "id": "22",
-        "category": "Almohadones",
-        "name": "GREY DUO",
-        "image": "/imagenes/greyduo.webp",
-        "size": "70 x 70 cm.",
-        "made":"Lienzo 100 % Algodon."
-    },
-    {
         "id": "23",
         "category": "Almohadones",
         "name": "HOJA",
@@ -248,7 +240,7 @@ const products = [
         "category": "Almohadones",
         "name": "MANHATTAN",
         "image": "/imagenes/manhattan.webp",
-        "size": "90 x 60 cm.",
+        "size": "140 x 40 cm.",
         "made":"Lienzo 100 % Algodon."
     },
     {
@@ -324,17 +316,9 @@ const products = [
         "made":"Lienzo 100 % Algodon."
     },
     {
-        "id": "41",
-        "category": "Almohadones",
-        "name": "PLEASED",
-        "image": "/imagenes/pleased.webp",
-        "size": "80 x 40 cm.",
-        "made":"Lienzo 100 % Algodon."
-    },
-    {
         "id": "42",
         "category": "Almohadones",
-        "name": "POLLOCK + KANDINSKY (stock limitado)",
+        "name": "POLLOCK",
         "image": "/imagenes/pollock.webp",
         "size": "60 x 60 cm.",
         "made":"Lienzo 100 % Algodon."
@@ -348,27 +332,11 @@ const products = [
         "made":"Lienzo 100 % Algodon."
     },
     {
-        "id": "44",
-        "category": "Almohadones",
-        "name": "RAYAS OSLO",
-        "image": "/imagenes/oslo.webp",
-        "size": "70 x 70 cm. - 90 x 60 cm.",
-        "made":"Lienzo 100 % Algodon."
-    },
-    {
         "id": "45",
         "category": "Almohadones",
         "name": "REST HERE",
         "image": "/imagenes/resthere.webp",
         "size": "70 x 70 cm.",
-        "made":"Lienzo 100 % Algodon."
-    },
-    {
-        "id": "46",
-        "category": "Almohadones",
-        "name": "RIO (stock limitado)",
-        "image": "/imagenes/rio.webp",
-        "size": "90 x 60 cm.",
         "made":"Lienzo 100 % Algodon."
     },
     {
@@ -483,7 +451,7 @@ const productsAlfombras = [
         "category": "Alfombras",
         "name": "ALFOMBRA REDONDA",
         "image": "/imagenes/alfombraredonda.webp",
-        "size": "1 mt. - 1.50 mt. - 2.00 mts.",
+        "size": "55 cm. / 1 mt. diametro",
         "made":"Hilo de Algodon."
     },
     {
@@ -492,14 +460,6 @@ const productsAlfombras = [
         "name": "ALFOMBRA MARRUECOS",
         "image": "/imagenes/alfombramarrueco.webp",
         "size": "1.10 mt. x 0.60 mts - 2.00 mts. x 0.60 mts.",
-        "made":"Hilo de Algodon."
-    },
-    {
-        "id": "10",
-        "category": "Alfombras",
-        "name": "ALFOMBRA RAYUELA",
-        "image": "/imagenes/alfombrarayuela.webp",
-        "size": "2.00 mts. x 0.60 mts.",
         "made":"Hilo de Algodon."
     },
 ]
@@ -564,14 +524,7 @@ export const getProductsBags = () => {
 }
 
 const productsOtros = [
-    {
-        "id": "1",
-        "category": "Otros",
-        "name": "CAMINO",
-        "image": "/imagenes/otros/camino.webp",
-        "size": "150 x 60 cm.",
-        "made":"Lienzo 100% algodon."
-    },
+
     {
         "id": "2",
         "category": "Otros",
@@ -592,7 +545,7 @@ const productsOtros = [
         "id": "4",
         "category": "Otros",
         "name": "MANTA RAYADA",
-        "image": "/imagenes/otros/mantarayada.webp",
+        "image": "/imagenes/otros/manta.webp",
         "size": "200 x 140 cms.",
         "made":"100% algodon."
     },
@@ -620,14 +573,7 @@ const productsOtros = [
         "size": "90 x 60 cms.",
         "made":"Lienzo 100% algodon."
     },
-    {
-        "id": "8",
-        "category": "Otros",
-        "name": "EDREDON PLAIN",
-        "image": "/imagenes/otros/edredonplain.webp",
-        "size": "90 x 60 cms.",
-        "made":" "
-    },
+
     {
         "id": "9",
         "category": "Otros",
@@ -652,14 +598,7 @@ const productsOtros = [
         "size": "90 x 60 cms.",
         "made":"Lienzo 100% algodon."
     },
-    {
-        "id": "12",
-        "category": "Otros",
-        "name": "MANTA",
-        "image": "/imagenes/otros/manta.webp",
-        "size": "90 x 60 cms.",
-        "made":"Lienzo 100% algodon."
-    },
+
     {
         "id": "13",
         "category": "Otros",
@@ -679,14 +618,6 @@ export const getProductsOtros =() =>{
 
 const productsxl = [
     {
-        "id": "1",
-        "category": "Almohadones Xl",
-        "name": "BILBAO",
-        "image": "/imagenes/bilbao.webp",
-        "size": "120 x 100 cm.",
-        "made":"Lienzo 100% algodon."
-    },
-    {
         "id": "2",
         "category": "Almohadones Xl",
         "name": "ONE LOVE",
@@ -699,14 +630,6 @@ const productsxl = [
         "category": "Almohadones Xl",
         "name": "NUNCA SEREMOS",
         "image": "/imagenes/nuncaseremos.webp",
-        "size": "120 x 50 cms.",
-        "made":"100% algodon."
-    },
-    {
-        "id": "4",
-        "category": "Almohadones Xl",
-        "name": "REMEMBER THAT DAY",
-        "image": "/imagenes/remember.webp",
         "size": "120 x 50 cms.",
         "made":"100% algodon."
     },
