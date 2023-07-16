@@ -10,24 +10,24 @@ const products = [
     {
         "id": "2",
         "category": "Almohadones",
-        "name": "ABSTRACT (gris claro)",
-        "image": "/imagenes/abstract.webp",
+        "name": "ABSTARCT (graffito-brick)",
+        "image": "/imagenes/abstractgb.webp",
         "size": "60 x 60 cm.",
         "made":"Lienzo 100 % Algodon."
     },
     {
         "id": "3",
         "category": "Almohadones",
-        "name": "ABSTRACT (ocre)",
-        "image": "/imagenes/abstracto.webp",
+        "name": "ABSTRACT (gris claro)",
+        "image": "/imagenes/abstract.webp",
         "size": "60 x 60 cm.",
         "made":"Lienzo 100 % Algodon."
     },
     {
         "id": "4",
         "category": "Almohadones",
-        "name": "ABSTARCT (graffito-brick)",
-        "image": "/imagenes/abstractgb.webp",
+        "name": "ABSTRACT (ocre)",
+        "image": "/imagenes/abstracto.webp",
         "size": "60 x 60 cm.",
         "made":"Lienzo 100 % Algodon."
     },
@@ -42,7 +42,7 @@ const products = [
     {
         "id": "6",
         "category": "Almohadones",
-        "name": "BE FELIZ / AMORE FA BENE AL CUORE",
+        "name": "BE FELIZ",
         "image": "/imagenes/befeliz.webp",
         "size": "50 x 35 cm.",
         "made":"Lienzo 100 % Algodon."
@@ -54,14 +54,6 @@ const products = [
         "image": "/imagenes/beanice.webp",
         "size": "60 x 60 cm.",
         "made":"100 % Lienzo tenido."
-    },
-    {
-        "id": "8",
-        "category": "Almohadones",
-        "name": "BI COLOR / DUO",
-        "image": "/imagenes/duogrey.webp",
-        "size": "60 x 60 cm.",
-        "made":"Lienzo 100 % Algodon."
     },
     {
         "id": "9",
@@ -84,7 +76,7 @@ const products = [
         "category": "Almohadones",
         "name": "COMO ME GUSTA LA NOCHE",
         "image": "/imagenes/comomegusta.webp",
-        "size": "80 x 50 cm.",
+        "size": "80 x 50 cm. - 1.20 mt. x 50 cm.",
         "made":"Lienzo 100 % Algodon."
     },
     {
@@ -100,7 +92,7 @@ const products = [
         "category": "Almohadones",
         "name": "CRUZ",
         "image": "/imagenes/cruz.webp",
-        "size": "90 x 60 cm.",
+        "size": "80 x 50 cm.",
         "made":"Lienzo 100 % Algodon."
     },
 
@@ -158,9 +150,9 @@ const products = [
     {
         "id": "20",
         "category": "Almohadones",
-        "name": "FLOWERS",
-        "image": "/imagenes/flowers.webp",
-        "size": "80 x 40 cm.",
+        "name": "GREY DUO",
+        "image": "/imagenes/greyduo.webp",
+        "size": "70 x 70 cm.",
         "made":"Lienzo 100 % Algodon."
     },
     {
@@ -240,7 +232,7 @@ const products = [
         "category": "Almohadones",
         "name": "MANHATTAN",
         "image": "/imagenes/manhattan.webp",
-        "size": "140 x 40 cm.",
+        "size": "90 x 60 cm.",
         "made":"Lienzo 100 % Algodon."
     },
     {
@@ -259,14 +251,14 @@ const products = [
         "size": "80 x 40 cm.",
         "made":"Lienzo 100 % Algodon."
     },
-    {
+/*     {
         "id": "34",
         "category": "Almohadones",
         "name": "NEW YORK OR NOWHERE",
         "image": "/imagenes/newyork.webp",
         "size": "60 x 60 cm.",
         "made":"Lienzo 100 % Algodon."
-    },
+    }, */
     {
         "id": "35",
         "category": "Almohadones",
@@ -350,13 +342,22 @@ const products = [
     {
         "id": "48",
         "category": "Almohadones",
+        "name": "STRIPS",
+        "image": "/imagenes/strips.webp",
+        "size": "70 x 70 cm.",
+        "made":"Lienzo 100 % Algodon."
+    },
+
+    {
+        "id": "49",
+        "category": "Almohadones",
         "name": "TIJUCA (stock limitado)",
         "image": "/imagenes/tijuca.webp",
         "size": "60 x 60 cm.",
         "made":"Lienzo 100 % Algodon."
     },
     {
-        "id": "49",
+        "id": "50",
         "category": "Almohadones",
         "name": "TOCA TOCA",
         "image": "/imagenes/tocatoca.webp",
@@ -364,7 +365,7 @@ const products = [
         "made":"Lienzo 100 % Algodon."
     },
     {
-        "id": "50",
+        "id": "51",
         "category": "Almohadones",
         "name": "VIAGGIARE",
         "image": "/imagenes/viaggiare.webp",
@@ -441,11 +442,19 @@ const productsAlfombras = [
     {
         "id": "8",
         "category": "Alfombras",
+        "name": "ALFOMBRA MARRUECOS",
+        "image": "/imagenes/alfombramarrueco.webp",
+        "size": "1.10 mt. x 0.60 mts - 2.00 mts. x 0.60 mts.",
+        "made":"Hilo de Algodon."
+    },
+/*     {
+        "id": "9",
+        "category": "Alfombras",
         "name": "ALFOMBRA RAYUELA",
         "image": "/imagenes/alfombrarayuela.webp",
         "size": "2.00 x 0.60 m.",
         "made":"Hilo de Algodon."
-    },
+    }, */
     {
         "id": "9",
         "category": "Alfombras",
@@ -457,9 +466,9 @@ const productsAlfombras = [
     {
         "id": "10",
         "category": "Alfombras",
-        "name": "ALFOMBRA MARRUECOS",
-        "image": "/imagenes/alfombramarrueco.webp",
-        "size": "1.10 mt. x 0.60 mts - 2.00 mts. x 0.60 mts.",
+        "name": "ALFOMBRA ESPECIAL (lisa o rayada)",
+        "image": "/imagenes/especial.webp",
+        "size": "50 x 60 cm.",
         "made":"Hilo de Algodon."
     },
 ]
@@ -484,34 +493,34 @@ const productsBags = [
     {
         "id": "2",
         "category": "Bags",
-        "name": "LAUNDRY BAG",
-        "image": "/imagenes/baglaundry.webp",
-        "size": "50 x 70 x 30 cm.",
-        "made":"Gabardina, capacidad 8 Kg."
-    },
-    {
-        "id": "3",
-        "category": "Bags",
-        "name": "ROCK AND TOYS",
-        "image": "/imagenes/bagrock.webp",
-        "size": "50 x 70 x 30 cm.",
-        "made":"Gabardina."
-    },
-    {
-        "id": "4",
-        "category": "Bags",
         "name": "EN UNA",
         "image": "/imagenes/bagenuna.webp",
         "size": "50 x 70 x 30 cm.",
         "made":"Lienzo 100% algodon."
     },
     {
-        "id": "5",
+        "id": "3",
         "category": "Bags",
         "name": "KEEPING IT SIMPLE",
         "image": "/imagenes/bagkeep.webp",
         "size": "50 x 70 x 30 cm.",
         "made":"Lienzo 100% algodon."
+    },
+    {
+        "id": "4",
+        "category": "Bags",
+        "name": "LAUNDRY BAG",
+        "image": "/imagenes/baglaundry.webp",
+        "size": "50 x 70 x 30 cm.",
+        "made":"Gabardina, capacidad 8 Kg."
+    },
+    {
+        "id": "5",
+        "category": "Bags",
+        "name": "ROCK AND TOYS",
+        "image": "/imagenes/bagrock.webp",
+        "size": "50 x 70 x 30 cm.",
+        "made":"Gabardina."
     },
 ]
 
@@ -528,7 +537,7 @@ const productsOtros = [
     {
         "id": "2",
         "category": "Otros",
-        "name": "COLCHONETA",
+        "name": "COLCHONETAS",
         "image": "/imagenes/otros/colchoneta.webp",
         "size": "80 x 185 cms.",
         "made":"100% algodon."
@@ -546,7 +555,7 @@ const productsOtros = [
         "category": "Otros",
         "name": "MANTA RAYADA",
         "image": "/imagenes/otros/manta.webp",
-        "size": "200 x 140 cms.",
+        "size": "1.50 mt. x 2 mts.",
         "made":"100% algodon."
     },
     {
@@ -560,7 +569,7 @@ const productsOtros = [
     {
         "id": "6",
         "category": "Otros",
-        "name": "HANGING MAP",
+        "name": "HANGING MAP (base crudo / gris)",
         "image": "/imagenes/otros/hangingmap.webp",
         "size": "90 x 60 cms.",
         "made":"Lienzo 100% algodon."
@@ -579,7 +588,7 @@ const productsOtros = [
         "category": "Otros",
         "name": "MURAL GEO",
         "image": "/imagenes/otros/muralgeo.webp",
-        "size": "90 x 60 cms.",
+        "size": "1.35 x 2.45 mts.",
         "made":"Lienzo 100% algodon."
     },
     {
@@ -587,15 +596,23 @@ const productsOtros = [
         "category": "Otros",
         "name": "MURAL POLLOCK",
         "image": "/imagenes/otros/muralpollock.webp",
-        "size": "90 x 60 cms.",
+        "size": "1 x 1 mt.",
         "made":"Lienzo 100% algodon."
     },
     {
         "id": "11",
         "category": "Otros",
+        "name": "MURAL ABSTARCT",
+        "image": "/imagenes/otros/muralabstract.webp",
+        "size": "1 x 1 mt.",
+        "made":"Lienzo 100% algodon."
+    },
+    {
+        "id": "12",
+        "category": "Otros",
         "name": "MURAL JAPAN",
         "image": "/imagenes/otros/muraljapan.webp",
-        "size": "90 x 60 cms.",
+        /* "size": "90 x 60 cms.", */
         "made":"Lienzo 100% algodon."
     },
 
@@ -604,7 +621,7 @@ const productsOtros = [
         "category": "Otros",
         "name": "PILLOW",
         "image": "/imagenes/otros/pillow.webp",
-        "size": "90 x 60 cms.",
+        "size": "2 mts. x 75 cms. aprox. reversible",
         "made":"Lienzo 100% algodon."
     },
 ]
@@ -617,6 +634,14 @@ export const getProductsOtros =() =>{
 }
 
 const productsxl = [
+    {
+        "id": "1",
+        "category": "Almohadones Xl",
+        "name": "MANHATTAN XL",
+        "image": "/imagenes/manhattan.webp",
+        "size": "1.40 mts. x 40 cms.",
+        "made":"Lienzo 100% algodon."
+    },
     {
         "id": "2",
         "category": "Almohadones Xl",
@@ -640,15 +665,7 @@ const productsxl = [
         "image": "/imagenes/sanctuary.webp",
         "size": "120 x 50 cms.",
         "made":"Lienzo 100% algodon."
-    },
-    {
-        "id": "6",
-        "category": "Almohadones Xl",
-        "name": "XL",
-        "image": "/imagenes/xl.webp",
-        "size": "90 x 60 cms.",
-        "made":"Lienzo 100% algodon."
-    },
+    }
 ]
 export const getProductsxl =() =>{
     return new Promise((resolve)=>{
